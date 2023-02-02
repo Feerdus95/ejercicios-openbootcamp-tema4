@@ -12,7 +12,7 @@ public class Main {
         }
         /*Fin ejercicio IF*/
         /*Inicio ejercicio WHILE*/
-        int numeroWhile = 0;
+        int numeroWhile = 0; /*Valor asignado a numeroWhile*/
 
         while (numeroWhile < 3){
             numeroWhile++;
@@ -20,7 +20,7 @@ public class Main {
         }
         /*Fin ejercicio WHILE*/
         /*Inicio ejercicio DO WHILE*/
-        int numeroDoWhile = 0;
+        int numeroDoWhile = 0; /*Valor asignado a numeroDoWhile*/
 
         do {
             numeroDoWhile++;
@@ -34,7 +34,7 @@ public class Main {
         }
         /*Fin ejercicio FOR*/
         /*Inicio ejercicio SWITCH*/
-        var estacion = "PEPITO";
+        var estacion = "PEPITO"; /*Variable Estaciones*/
 
         switch(estacion){
             case "VERANO":
