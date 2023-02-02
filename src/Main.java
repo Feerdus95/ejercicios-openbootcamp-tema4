@@ -1,14 +1,14 @@
 public class Main {
     public static void main(String[] args) {
         /*Inicio ejercicio IF*/
-        int numerolf = 0; /*Valor asignado a numerolf*/
+        int numeroIf = 0; /*Valor asignado a numeroIf*/
 
-        if(numerolf > 0){
-            System.out.println("El número es positivo");
-        } else if (numerolf < 0) {
-            System.out.println("El número es negativo");
+        if(numeroIf > 0){
+            System.out.println("El númeroIf " +numeroIf+ " es positivo");
+        } else if (numeroIf < 0) {
+            System.out.println("El númeroIf " +numeroIf+ " es negativo");
         } else {
-            System.out.println("El número es 0");
+            System.out.println("El númeroIf es 0");
         }
         /*Fin ejercicio IF*/
         /*Inicio ejercicio WHILE*/
@@ -20,17 +20,17 @@ public class Main {
         }
         /*Fin ejercicio WHILE*/
         /*Inicio ejercicio DO WHILE*/
-        int numeroDoWhile = 0; /*Valor asignado a numeroDoWhile*/
+        int numeroDoWhile = 3; /*Valor asignado a numeroDoWhile*/
 
         do {
             numeroDoWhile++;
             System.out.println("El numeroDoWhile es: " +numeroDoWhile);
-        } while (numeroDoWhile < 1);
+        } while (numeroDoWhile < 3);
         /*Fin ejercicio DO WHILE*/
         /*Inicio ejercicio FOR*/
 
         for (int numeroFor = 0;numeroFor <= 3; numeroFor++){
-            System.out.print("\nEl numero For es: "+numeroFor);
+            System.out.print("\nEl numeroFor es: "+numeroFor);
         }
         /*Fin ejercicio FOR*/
         /*Inicio ejercicio SWITCH*/
@@ -53,6 +53,5 @@ public class Main {
                 System.out.print("\nLa variable no contiene una estación");
         }
         /*Fin ejercicio SWITCH*/
-
     }
 }
